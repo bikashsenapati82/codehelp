@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <p>
+            <xmp>
+                    #include <stdio.h>
+                            #include <stdlib.h>
+                            int main()
+                            {
+                                int num1, num2,num3; //declare the variables
+                                printf("Enter the first number to compare: ");
+                                scanf("%d",&num1);//get input from user for num1
+                                printf("Enter the second number to compare: ");
+                                scanf("%d",&num2);//get input from user for num2
+                                printf("Enter the third number to compare: ");
+                                scanf("%d",&num3);//get input from user for num3
+                                if(num1>=num2 && num1>=num3){
+                                     printf("\nLargest number is: %d\n",num1);
+                                }//num1 compare with num 2 and num 3
+                                if(num2>=num1 && num2>=num3){
+                                     printf("\nLargest number is: %d\n",num2);
+                                }//num2 compare with num1 and num3
+                                if(num3>=num1 && num3>=num2){
+                                     printf("\nLargest number is: %d\n",num2);
+                                }//num3 compare with num1 and num2
+                               getch();
+                                return 0;
+                            }
+            </xmp>
+        </p>
+    </body>
+</html>

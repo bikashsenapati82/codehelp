@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <p>
+            <xmp>
+                    import java.util.Scanner;
+                    class Large_Three{
+                    public static void main (String args[]){
+                    double max;//variable declaration
+                    Scanner scan=new Scanner(System.in);
+                    System.out.print("Enter the first number: ");
+                    int num1=scan.nextInt();//get input from user for first number
+                    System.out.print("Enter the second number: ");
+                    int num2=scan.nextInt();//get input from user for second number
+                    System.out.print("Enter the third number: ");
+                    int num3=scan.nextInt();//get input from user for third number
+                    if(num1>=num2 && num1>=num3){//num1 compare with num2 and num3
+                        System.out.println("\n The largest number is: "+num1);
+                    }
+                    if(num2>=num1 && num2>=num3){//num2 compare with num1 and num3
+                        System.out.println("\n The largest number is: "+num2);
+                    }
+                    if(num3>=num1 && num3>=num2){//num3 compare with num1 and num2
+                        System.out.println("\n The largest number is: "+num3);
+                    }
+                    }
+                }                    
+            </xmp>
+        </p>
+    </body>
+</html>
